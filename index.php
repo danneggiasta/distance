@@ -127,8 +127,8 @@ for($i = 0; $i < $total1; $i++)
 
 }
 
-// array_unshift($school_kid, array('k_lat', 'k_long', 's_lat', 's_long', 'tel', 'www'));
-// str_putcsv($school_kid);
+array_unshift($school_kid, array('k_lat', 'k_long', 's_lat', 's_long', 'tel', 'www'));
+str_putcsv($school_kid);
 
 ?>
 <!DOCTYPE html>
