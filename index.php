@@ -83,8 +83,7 @@ while($data = fgetcsv($skole, ",")) {
 		"tel"	=> (array_key_exists(9, $str)) ? $str[9] : '',
 		"fax"	=> (array_key_exists(10, $str)) ? $str[10] : '',
 		"vrsta"	=> (array_key_exists(11, $str)) ? $str[11] : '',
-		"max_broj_djaka"	=> (array_key_exists(12, $str)) ? (get_numeric($str[12]))*5 : 0,
-		"max_broj_djaka_temp"	=> (array_key_exists(12, $str)) ? (get_numeric($str[12]))*5 : 0
+		"max_broj_djaka"	=> (array_key_exists(12, $str)) ? (get_numeric($str[12]))*5 : 0
 	);
 }
 
@@ -179,9 +178,3 @@ str_putcsv($school_kid);
 
 </body>
 </html>
-
-
-
-
-
-
